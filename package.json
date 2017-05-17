@@ -1,0 +1,45 @@
+{
+  "name": "linter-js-blyss",
+  "main": "./lib/init.js",
+  "activationCommands": [],
+  "version": "0.1.0",
+  "description": "Linter plugin for JavaScript Blyss Style",
+  "keywords": [
+    "javascript",
+    "standard",
+    "linter",
+    "blyss"
+  ],
+  "author": {
+    "name": "Saad Quadri",
+    "email": "saad@saadq.com"
+  },
+  "repository": "https://github.com/saadq/linter-js-blyss.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "^2.0.5",
+    "babel-eslint": "^7.1.0",
+    "blyss": "^3.0.2",
+    "esprima": "^3.1.1",
+    "esprima-fb": "^15001.1001.0-dev-harmony-fb",
+    "happiness": "^7.1.2",
+    "lodash.intersection": "^3.2.0",
+    "loophole": "^1.1.0",
+    "minimatch": "^2.0.8",
+    "pkg-config": "^1.1.0",
+    "q": "^1.4.1"
+  },
+  "package-deps": [
+    "linter"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  }
+}
