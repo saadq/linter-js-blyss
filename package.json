@@ -2,7 +2,7 @@
   "name": "linter-js-blyss",
   "main": "./lib/init.js",
   "activationCommands": [],
-  "version": "9.0.2",
+  "version": "9.0.3",
   "description": "Linter plugin for JavaScript Blyss Style",
   "keywords": [
     "javascript",
